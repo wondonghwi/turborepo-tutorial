@@ -80,7 +80,7 @@ export default function Page(): JSX.Element {
       <Button
         appName='web'
         className={styles.button}>
-        Click web jarry!
+        Click web jarry
       </Button>
 
       <div className={styles.hero}>
