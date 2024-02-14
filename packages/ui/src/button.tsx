@@ -8,7 +8,7 @@ interface ButtonProps {
   appName: string;
 }
 
-console.log('여기 로그추가!');
+console.log('여기 로그 변경!!!');
 
 export const Button = ({ children, className, appName }: ButtonProps) => {
   console.log(appName);
