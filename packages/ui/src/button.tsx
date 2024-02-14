@@ -1,4 +1,6 @@
-'use client';
+console.log('여기 로그추가');
+
+('use client');
 
 import { ReactNode } from 'react';
 
