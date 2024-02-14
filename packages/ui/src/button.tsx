@@ -1,5 +1,3 @@
-console.log('여기 로그추가');
-
 ('use client');
 
 import { ReactNode } from 'react';
@@ -9,6 +7,8 @@ interface ButtonProps {
   className?: string;
   appName: string;
 }
+
+console.log('여기 로그추가');
 
 export const Button = ({ children, className, appName }: ButtonProps) => {
   return (
